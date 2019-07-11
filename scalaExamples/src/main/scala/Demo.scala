@@ -11,8 +11,23 @@ class Demo {
 object Demo {
   def main(args: Array[String]): Unit = {
     var d = new Demo
-    d.mul(2, 4)
-    println(d.result)
+    //d.mul(2, 4)
+    //println(d.result)
+ //   1 Aug, 2018
+//    9-February-2019
+
+    val str = "1 Aug, 2018"
+    val date = str.replace(" ", "-").replace(",", "")
+
+    println(date)
+
+
+
+
+
+
   }
+
+
 
 }
